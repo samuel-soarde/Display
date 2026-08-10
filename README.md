@@ -31,18 +31,6 @@ A proposta é observar, na prática, como cada tipo de `display` funciona e em q
 - HTML5
 - CSS3
 
-## 📂 Estrutura
-
-```text
-.
-├── index.html
-├── style.css
-└── README.md
-
-
-##💡 O que estou aprendendo
-
-O objetivo principal não é apenas memorizar os valores de display, mas entender quando e por que utilizar cada um na construção de interfaces.
 
 ## 🚀 Como executar
 
@@ -52,5 +40,17 @@ Abra o arquivo index.html no navegador.
 
 Explore os exemplos e altere o CSS para observar o comportamento dos elementos.
 
-```bash
 git clone <https://github.com/samuel-soarde/Display.git>
+
+## 📂 Estrutura
+
+
+```text
+.
+├── index.html
+├── style.css
+└── README.md
+
+##💡 O que estou aprendendo
+
+O objetivo principal não é apenas memorizar os valores de display, mas entender quando e por que utilizar cada um na construção de interfaces.
