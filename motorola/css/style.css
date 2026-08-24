@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main__bateria {
+    height: 919px;
+}
+
+.main__bateria--imagem img{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 600px;
+}
