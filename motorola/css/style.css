@@ -19,6 +19,7 @@
 .main-bateria__left--img {
     height: 550px;
     width: 380px;
+    /* proporção ~ 2:3 */
 }
 
 .main-bateria__right {
