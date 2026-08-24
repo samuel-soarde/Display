@@ -16,7 +16,7 @@
     margin-right: 20px;
 }
 
-.main-bateria__left--img{
+.main-bateria__left--img {
     height: 550px;
 }
 
@@ -25,12 +25,12 @@
     align-content: space-evenly;
 }
 
-.text__title--h1 {
+.text__title--titulo {
     font-size: 65px;
     height: 130px;
 }
 
-.text__title--h2 {
+.text__title--subtitulo {
     color: rgb(108, 169, 249);
     font-family: "Calibri Light";
     font-weight: 400;
