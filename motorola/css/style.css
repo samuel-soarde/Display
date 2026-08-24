@@ -6,10 +6,22 @@
 
 .main__bateria {
     height: 919px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main__bateria--imagem img{
+.main__bateria--imagem{
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     height: 600px;
+}
+
+.main__bateria--textos {
+    height: 550px;
+}
+
+.main__bateria--titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
 }
