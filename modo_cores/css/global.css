@@ -1,0 +1,92 @@
+@import url(./reset.css);
+@import url(./design-system.css);
+
+.color-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.color-section__sidebar {
+
+}
+
+.color-section__title {
+
+}
+
+.color-section__menu {
+
+}
+
+.color-section__link {
+
+}
+
+.color-section__link--active {
+
+}
+.color-section__link--active:hover {
+
+}
+
+.color-section__bar {
+
+}
+
+.color-section__bar:hover [
+
+]
+
+
+
+
+
+
+.color-section__bar--rgb-1 {
+
+}
+
+.color-section__bar--rgb-2 {
+
+}
+
+.color-section__bar--rgb-3 {
+
+}
+
+.color-section__bar--rgb-4 {
+
+}
+
+.color-section__bar--rgb-5 {
+
+}
+
+.color-section__bar--rgb-6 {
+
+}
+
+.color-section__bar--cmyk-1 {
+
+}
+
+.color-section__bar--cmyk-2 {
+
+}
+
+.color-section__bar--cmyk-3 {
+
+}
+
+.color-section__bar--cmyk-4 {
+
+}
+
+.color-section__bar--cmyk-5 {
+
+}
+
+.color-section__bar--cmyk-6 {
+
+}
