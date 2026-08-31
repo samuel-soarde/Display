@@ -14,7 +14,6 @@
     flex-direction: column;
     background-color: var(--ui-bg-sidebar);
     width: 260px;
-    border-right: solid 1px var(--ui-border);
 }
 
 .color-section__title {
@@ -43,9 +42,6 @@
     border-radius: 6px;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    /* apagar */
-    /* width: 150px;
-    height: 40px; */
 }
 
 .color-section__link:not(.color-section__link--active):hover {
@@ -63,17 +59,53 @@
     transform: scale(1.1);
 }
 
+.color-section__colors-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.color-section__colors-menu--divs {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    border-left: solid 1px var(--ui-border);
+    border-bottom: solid 1px var(--ui-border);
+}
+
 .color-section__bar {
-    width: 15%;
+    flex-grow: 1;
+    height: 100%;
+    transition: all 0.25s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0px;
-    transition: all 0.2s ease-in-out;
 }
 
 .color-section__bar:hover {
-    font-size: 30px;
+    transform: scaleX(1.05);
+    z-index: 10;
+    box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+}
+
+.color-section__bar span {
+    visibility: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 16px;
+    letter-spacing: 1.0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.color-section__bar:hover span {
+    visibility: visible;
+}
+
+.color-section__footer {
+    height: 10vh;
+    background-color: var(--ui-bg-sidebar);
+    color: var(--ui-text-title);
+    letter-spacing: 0.5px;
 }
 
 .color-section__bar--rgb-1 { background-color: var(--color-rgb-1);}
@@ -99,3 +131,12 @@
 .color-section__bar--cmyk-5 { background-color: var(--color-cmyk-5);}
 
 .color-section__bar--cmyk-6 { background-color: var(--color-cmyk-6);}
+
+.color-section__bar--netflix-1 { background-color: #221F1F;}
+.color-section__bar--netflix-2 { background-color: #E50914;}
+.color-section__bar--netflix-3 { background-color: #F5F5F1;}
+
+.color-section__bar--google-1 { background-color: #4285F4;}
+.color-section__bar--google-2 { background-color: #FBBC05;}
+.color-section__bar--google-3 { background-color: #34A853;}
+.color-section__bar--google-4 { background-color: #EA4335;}
