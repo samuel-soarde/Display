@@ -49,6 +49,7 @@
 }
 
 .color-section__link:not(.color-section__link--active):hover {
+    color: var(--ui-text-title);
     background-color: var(--ui-link-hover-bg);
 }
 
