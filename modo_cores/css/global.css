@@ -65,6 +65,15 @@
 
 .color-section__bar {
     width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.color-section__bar:hover {
+    font-size: 30px;
 }
 
 .color-section__bar--rgb-1 { background-color: var(--color-rgb-1);}
