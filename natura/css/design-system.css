@@ -1,0 +1,15 @@
+:root{
+    --image-bg: #e4ad97;
+    --span-color: #6c2414;
+    --text-title: #555;
+    --text-description: #555;
+    --text-button: #333;
+    --text-button-hover: white;
+    --text-button-hover-bg: #555;
+    --border-button-hover: 1px solid #777;
+
+    --font-text-description: "Montserrat", sans-serif;
+
+    --border-image: 0 40px 0 40px;
+}
+
