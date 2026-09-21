@@ -62,14 +62,15 @@
 
 .color-section__content {
     display: flex;
-    width: 100%;
     flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
 }
 
 .color-section__content--palette {
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 43vh;
     border-left: solid 1px var(--ui-border);
     border-bottom: solid 1px var(--ui-border);
 }
@@ -103,10 +104,17 @@
     visibility: visible;
 }
 
-.color-section__footer {
-    height: 50vh;
+.color-section__faq {
+    flex-grow: 1;
     background-color: var(--ui-bg-sidebar);
     color: var(--ui-text-title);
     letter-spacing: 0.5px;
 }
 
+.color-section__faq-title {
+    
+}
+
+.color-section__faq-item {
+
+}
