@@ -89,6 +89,26 @@ html {
     line-height: 10px;
 }
 
+.summary details {
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 20px;
+
+}
+
+.summary summary {
+    background: white;
+    
+}
+
+.summary p {
+    line-height: 20px;
+    color: red;
+}
+
 /* 
 Display none: não aparece na tela
 
