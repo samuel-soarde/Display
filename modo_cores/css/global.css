@@ -104,15 +104,19 @@
     visibility: visible;
 }
 
+
+
 .color-section__faq {
     flex-grow: 1;
-    background-color: var(--ui-bg-sidebar);
-    color: var(--ui-text-title);
-    letter-spacing: 0.5px;
+    background-color: var(--faq-bg);
+    padding: 35px 40px;
+    border-top: 1px solid var(--ui-border);
+    display: flex;
+    flex-direction: column;
 }
 
 .color-section__faq-title {
-    
+
 }
 
 .color-section__faq-item {
