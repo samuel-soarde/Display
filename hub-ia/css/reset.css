@@ -3,3 +3,38 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--font-main);
+    background-color: var(--color-bg-body);
+    color: var(--color-text-main);
+}
+
+body {
+    padding-top: var(--header-height);
+    padding-bottom: var(--footer-height);
+    line-height: 1.6;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /* herdar as cores do pai */
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+mark {
+    background-color: var(--color-highlight);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
