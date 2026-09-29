@@ -5,7 +5,8 @@
      --color-bg-card: #ffffff;   
      --color-primary: #0284c7;          
      --color-primary-hover: #0369a1;     
-     --color-secondary: #0d9488;         
+     --color-secondary: #0d9488;
+     --color-highlight: ; /* a decidir*/
 
      /* Textos e Bordas */   
      --color-text-main: #0f172a;

@@ -1,2 +1,30 @@
+@import url(/hub-ia/css/variables.css);
 @import url(/hub-ia/css/reset.css);
 
+.header {
+
+}
+
+.header__brand {
+
+}
+
+.header__title {
+
+}
+
+.nav_list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+
+}
+
+.nav__link:hover, .nav__link:focus {
+    
+}

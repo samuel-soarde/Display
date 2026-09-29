@@ -1,0 +1,15 @@
+/* até 500 */
+@media (max-width: 500px) {
+}
+
+/* de 500 à 767 */
+@media (min-width: 501px) and (max-width: 767px) {
+}
+
+/* de 768 à 1023 */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* a partir de 1024 */
+@media (min-width: 1024px) {
+}
