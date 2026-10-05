@@ -157,3 +157,7 @@
     box-shadow: var(--shadow-card);
     transition: var(--transition);
 }
+
+.faq__item[open] {
+    border-color: var(--color-primary);
+}
