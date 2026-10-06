@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  /* garante o texto base do documento em 16px (1.6rem) */  
+  /* garante o texto base do documento em 16px (1.6rem) */
   font-size: var(--font-size-base);
   padding-top: var(--header-height);
   padding-bottom: var(--footer-height);

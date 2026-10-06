@@ -29,9 +29,11 @@
   --shadow-card: 0 10px 25px -5px rgba(148, 163, 184, 0.25);
   --shadow-hover: 0 15px 30px -5px rgba(2, 132, 199, 0.2);
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
 
   /* alturas do layout */
   --header-height: 10vh;
   --footer-height: 8vh;
   --section-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
+
